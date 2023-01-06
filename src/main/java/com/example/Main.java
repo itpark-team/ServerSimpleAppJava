@@ -20,8 +20,8 @@ public class Main {
         DataInputStream dataInputStream;
         DataOutputStream dataOutputStream;
 
-       // serverSocket = new ServerSocket(23465, 1);
-        serverSocket = new ServerSocket(23465, 1, InetAddress.getByName("127.0.0.1"));
+        serverSocket = new ServerSocket(23465, 1);
+       // serverSocket = new ServerSocket(23465, 1, InetAddress.getByName("194.67.105.79"));
 
         Log("server created and started");
 
